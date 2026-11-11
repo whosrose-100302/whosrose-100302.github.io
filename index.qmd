@@ -1,0 +1,9 @@
+---
+title: "Welcome"
+---
+
+Interested in multilevel modeling? You've come to the right place.
+
+This site was made as part of the course "Markup Languages and Reproducible Programming in Statistics (MLaRPiS)". On this site, you can find explanations of some concepts in statistics that I find interesting. Namely, you can find basic explanations of multilevel data structure and different effects to be found in multilevel data.
+
+This is (a very small) part of the work I did for my thesis.

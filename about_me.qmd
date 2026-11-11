@@ -1,0 +1,11 @@
+---
+title: "About me"
+---
+
+My name: Roos Mulder
+
+My background: I have a bachelor's degree in pedagogical sciences, which I got at the University of Utrecht. I got more and more interested in methods, and so I did a minor in Methodology and Statistics as well. Now, (nov '26) I am a second year research master student at the UU in the program Methods and Statistics for the Biomedical, Behavioural, and Social Sciences. I'm following the track "contemporary psychometrics", in which we follow classes at Cito and the University of Twente.
+
+My thesis involves several domains: Structural Equation Modeling, causal inference, and longitudinal data analysis.
+
+My ORCiD: 0009-0009-2386-362X

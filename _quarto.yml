@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "ML&RPiS: Week 5 - my own website"
+  sidebar:
+    style: "docked"
+    contents:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - href: Multilevel_data.qmd
+        text: Multilevel data
+      - href: Within_between.qmd
+        text: Within and between effects
+      - href: contextual.qmd
+        text: Big fish, small pond?
+      - href: about_me.qmd
+        text: About me
+
+format:
+  html:
+    css: styles.css
+    toc: true
+
+editor: visual
+

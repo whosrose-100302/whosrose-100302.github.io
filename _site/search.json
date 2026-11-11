@@ -1,0 +1,62 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Interested in multilevel modeling? You’ve come to the right place.\nThis site was made as part of the course “Markup Languages and Reproducible Programming in Statistics (MLaRPiS)”. On this site, you can find explanations of some concepts in statistics that I find interesting. Namely, you can find basic explanations of multilevel data structure and different effects to be found in multilevel data.\nThis is (a very small) part of the work I did for my thesis.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About this site..",
+    "section": "",
+    "text": "There are three sections that each explain a basic concept in multilevel modeling. Firstly, there is multilevel data. Secondly, there is an explanation on within and between effects and how to distinguish them. Finally, there is a basic explanation on contextual effects.",
+    "crumbs": [
+      "About this site.."
+    ]
+  },
+  {
+    "objectID": "contextual.html",
+    "href": "contextual.html",
+    "title": "Bad football player, professional team",
+    "section": "",
+    "text": "To think clearly about contextual effects, we can use the “Big fish, little pond” theory.\nImagine a research scenario is which we take the number of goals scored as the exposure variable X, and the feeling of compentency on the football field as the outcome variable Y. Let’s say you’re in an amateur football team with a bunch of peers with similar football skills to yours (we assume for now that you aren’t very good). You might feel that you’re quite good at football. You might not score a lot of goals, but neither do the others. However, if we were to place you in a team full of professional football players, you might not feel very competent anymore.\nThe contextual effect describes the difference in feelings of competency for players with the same number of goals in teams with a different average number of goals per player. So, how does the context affect Y?",
+    "crumbs": [
+      "Big fish, small pond?"
+    ]
+  },
+  {
+    "objectID": "Within_between.html",
+    "href": "Within_between.html",
+    "title": "Within vs between effects",
+    "section": "",
+    "text": "With multilevel data, different kinds of effects can be explored. Sticking with the students within schools example, within effects, \\(\\beta^w\\), look at how a student’s exposure affects their outcome. Between effects, \\(\\beta^b\\), look at how the school’s average exposure affects the school’s average outcome.\nOne way of centering that is used in multilevel models is centering on the cluster mean (CWC).\nIf \\(\\beta^w\\) and \\(\\beta^b\\) differ, not centering leaves us with a regression coefficient that neither represents the within nor the between effect. So, we want to separate them. How can centering be employed to do this? Firstly, if we center a predictor on its cluster mean (CWC), \\(X_{ij} - \\bar{X}_{.j}\\), we obtain \\(\\beta^w\\), because cluster level information is removed from the predictor. Secondly, if we CWC a predictor and we add the cluster mean as a separate predictor, \\(\\bar{X}_{.j}\\), we obtain \\(\\beta^b\\) as well. The regression coefficient for the cluster mean will then represent \\(\\beta^b\\). Alternatively, the uncentered predictor, \\(X_{ij}\\), can be used to obtain \\(\\beta^w\\), along with the cluster mean, \\(\\bar{X}_{ij}\\), which then represents a contextual effect (more on that in the Big fish, small pond section), \\(\\beta^c\\), since \\(\\beta^b = \\beta^w + \\beta^c\\).",
+    "crumbs": [
+      "Within and between effects"
+    ]
+  },
+  {
+    "objectID": "Multilevel_data.html",
+    "href": "Multilevel_data.html",
+    "title": "Multilevel data",
+    "section": "",
+    "text": "Hierarchical, multilevel or nested data is often used in economic, biomedical, and social sciences. In this data, units or observations (level 1) are nested within clusters (level 2). An example of nested data is students within schools, or patients nested within hospitals. Another possibility is that multilevel data is longitudinal. For example, you might collect measures of depression from people 4 times over the course of a year. Level 1 then consists of measurement occasions, while the clusters are the persons.\nSometimes the nested structure of the data is of interest to the researchers. It can be very interesting to see if processes work differently in different classrooms. Sometimes, though, this structure is simply a byproduct of a certain way of sampling and not of interest to the research question at hand. For example, in biostatistics, you can imagine sampling patients from hospitals is very convenient.\nEither way, in multilevel data, level 1 units, whether they are patients, students or measurement occasions, are not independent of each other. Thus, we must take this into consideration when we analyze our data.",
+    "crumbs": [
+      "Multilevel data"
+    ]
+  },
+  {
+    "objectID": "about_me.html",
+    "href": "about_me.html",
+    "title": "About me",
+    "section": "",
+    "text": "My name: Roos Mulder\nMy background: I have a bachelor’s degree in pedagogical sciences, which I got at the University of Utrecht. I got more and more interested in methods, and so I did a minor in Methodology and Statistics as well. Now, (nov ’26) I am a second year research master student at the UU in the program Methods and Statistics for the Biomedical, Behavioural, and Social Sciences. I’m following the track “contemporary psychometrics”, in which we follow classes at Cito and the University of Twente.\nMy thesis involves several domains: Structural Equation Modeling, causal inference, and longitudinal data analysis.\nMy ORCiD: 0009-0009-2386-362X",
+    "crumbs": [
+      "About me"
+    ]
+  }
+]

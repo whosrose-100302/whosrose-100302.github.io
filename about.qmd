@@ -1,0 +1,5 @@
+---
+title: "About this site.."
+---
+
+There are three sections that each explain a basic concept in multilevel modeling. Firstly, there is multilevel data. Secondly, there is an explanation on within and between effects and how to distinguish them. Finally, there is a basic explanation on contextual effects.

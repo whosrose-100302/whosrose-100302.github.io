@@ -1,0 +1,9 @@
+---
+title: "Multilevel data"
+---
+
+Hierarchical, multilevel or nested data is often used in economic, biomedical, and social sciences. In this data, units or observations (level 1) are nested within clusters (level 2). An example of nested data is students within schools, or patients nested within hospitals. Another possibility is that multilevel data is longitudinal. For example, you might collect measures of depression from people 4 times over the course of a year. Level 1 then consists of measurement occasions, while the clusters are the persons.
+
+Sometimes the nested structure of the data is of interest to the researchers. It can be very interesting to see if processes work differently in different classrooms. Sometimes, though, this structure is simply a byproduct of a certain way of sampling and not of interest to the research question at hand. For example, in biostatistics, you can imagine sampling patients from hospitals is very convenient.
+
+Either way, in multilevel data, level 1 units, whether they are patients, students or measurement occasions, are not independent of each other. Thus, we must take this into consideration when we analyze our data.

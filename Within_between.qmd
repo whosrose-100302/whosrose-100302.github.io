@@ -1,0 +1,9 @@
+---
+title: "Within and between effects"
+---
+
+With multilevel data, different kinds of effects can be explored. Sticking with the students within schools example, within effects, $\beta^w$, look at how a student’s exposure affects their outcome. Between effects, $\beta^b$, look at how the school’s average exposure affects the school’s average outcome.
+
+One way of centering that is used in multilevel models is centering on the cluster mean (CWC).
+
+If $\beta^w$ and $\beta^b$ differ, not centering leaves us with a regression coefficient that neither represents the within nor the between effect. So, we want to separate them. How can centering be employed to do this? Firstly, if we center a predictor on its cluster mean (CWC), $X_{ij} - \bar{X}_{.j}$, we obtain $\beta^w$, because cluster level information is removed from the predictor. Secondly, if we CWC a predictor and we add the cluster mean as a separate predictor, $\bar{X}_{.j}$, we obtain $\beta^b$ as well. The regression coefficient for the cluster mean will then represent $\beta^b$. Alternatively, the uncentered predictor, $X_{ij}$, can be used to obtain $\beta^w$, along with the cluster mean, $\bar{X}_{ij}$, which then represents a contextual effect (more on that in the Big fish, small pond section), $\beta^c$, since $\beta^b = \beta^w + \beta^c$.

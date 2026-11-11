@@ -1,0 +1,9 @@
+---
+title: "Bad football player, professional team"
+---
+
+To think clearly about contextual effects, we can use the "Big fish, little pond" theory.
+
+Imagine a research scenario is which we take the number of goals scored as the exposure variable X, and the feeling of compentency on the football field as the outcome variable Y. Let's say you're in an amateur football team with a bunch of peers with similar football skills to yours (we assume for now that you aren't very good). You might feel that you're quite good at football. You might not score a lot of goals, but neither do the others. However, if we were to place you in a team full of professional football players, you might not feel very competent anymore.
+
+The contextual effect describes the difference in feelings of competency for players with the same number of goals in teams with a different average number of goals per player. So, how does the context affect Y?
